@@ -5,12 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zack's Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My BI Site</h1>
+    <h1>Welcome to Zack's BI Site</h1>
     <img src="HeadshotHockey.jpg" height="200px">
     <p>Welcome to my place of showing you analytics,
-        come back soon to see what changes I make.
-    </p>
+        come back soon to see what changes I make.</p>
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/series-label.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+        <figure class="highcharts-figure">
+            <div id="linecontainer"></div>
+            <p class="highcharts-description">
+                Basic line chart showing trends in a dataset. This chart includes the
+                <code>series-label</code> module, which adds a label to each line for
+                enhanced readability.
+            </p>
+            <script src="line.js"></script>
+        </figure>
+
+        <figure class="highcharts-figure">
+            <div id="areacontainer" style="border: 2px solid red;"></div>
+            <p class="highcharts-description">
+                A demo showing a stacked area chart, also sometimes referred to as a
+                mountain chart. In a stacked chart, the data series values are added
+                together to make up a total.
+            </p>
+            <script src="area.js"></script>
+        </figure>
+
+        <figure class="highcharts-figure">
+            <div id="gaugecontainer"></div>
+            <p class="highcharts-description">
+                Chart showing use of multiple panes and axis plot bands with a gauge
+                series. The chart is updated dynamically every few seconds.
+            </p>
+            <script src="gauge.js"></script>
+        </figure>
+
+
+
+
+
+
 </body>
 </html>
