@@ -13,11 +13,18 @@
     <p>Welcome to my place of showing you analytics,
         come back soon to see what changes I make.</p>
 
+        <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
         <script src="https://code.highcharts.com/highcharts.js"></script>
         <script src="https://code.highcharts.com/modules/series-label.js"></script>
         <script src="https://code.highcharts.com/modules/exporting.js"></script>
         <script src="https://code.highcharts.com/modules/export-data.js"></script>
         <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+        <script src="https://code.highcharts.com/highcharts-more.js"></script>
+        <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
 
         <figure class="highcharts-figure">
             <div id="linecontainer"></div>
@@ -48,7 +55,50 @@
             <script src="gauge.js"></script>
         </figure>
 
+        <figure class="highcharts-figure">
+            <div id="coloraxiscontainer"></div>
+            <script src="coloraxis.js"></script>
+        </figure>
 
+        <figure class="highcharts-figure">
+            <div id="spiderwebcontainer"></div>
+            <p class="highcharts-description">
+                A spiderweb chart or radar chart is a variant of the polar chart.
+                Spiderweb charts are commonly used to compare multivariate data sets,
+                like this demo using six variables of comparison.
+            </p>
+            <script src="spiderweb.js"></script>
+        </figure>
+
+        <figure class="highcharts-figure">
+            <div id="piecontainer"></div>
+            <p class="highcharts-description">
+                Pie chart where the individual slices can be clicked to expose more
+                detailed data.
+            </p>
+            <script src="pie.js"></script>
+        </figure>
+
+        <figure class="highcharts-figure">
+            <div id="columwithnegativecontainer"></div>
+            <p class="highcharts-description">
+                Chart showing column comparisons with negative values.
+                Column charts are commonly used to compare values, and remains one of
+                the most popular and readable types of charts.
+            </p>
+            <script src="columwithnegative.js"></script>
+        </figure>
+
+
+        <figure class="highcharts-figure">
+            <div id="stackedareacontainer" style="border:2px solid red;"></div>
+            <p class="highcharts-description">
+                A demo showing a stacked area chart, also sometimes referred to as a
+                mountain chart. In a stacked chart, the data series values are added
+                together to make up a total.
+            </p>
+            <script src="stackedarea.js"></script>
+        </figure>
 
 
 
