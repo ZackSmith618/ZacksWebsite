@@ -1,60 +1,64 @@
-.print-off
-{
+
+.print-off{
 	display:none;
 }
 
 body{
+	margin: .25in;
+	font-family: serif;
+}
 
+article{
+	width: 95%;
+}
+
+section{
+	width: 100%;
 }
 
 #container{
-    width:100%;
+	width: 100%;  
 }
 
 
 #masthead{
-    width:100%;
+	width: 100%;
 }
 
 #masthead h1{
-    display:inline;
+	display:inline;
 }
 
 #navigation{
-	display:none;
-
+	display: none;
 }
 
 #maincontent
 {
-    width:100%;
+    width: 100%;
 }
 
 
 #leftcolumn{
-	width:100%;
-	float:none;
+	width: 100%;
+	float: none;
 }
 
-
-
-#leftcolumn a:link:after, #leftcolumn a:visited:after 
+#leftcolumn a:link:after, #leftcolumn a:visited:after
 {
-   content: "(" attr(href) ")";
-   font-size: 90%;
+	content: "("attr(href)")";
+	font-size:90%;
 }
-
 
 #rightcolumn{
-	width:100%;
-	float:none;
-}
+	width: 100%;
+	float: none;
 
+}
 
 #footer{
-	display:none;
+	display: none;
 }
-
 
 .moveleft
 {
@@ -65,4 +69,3 @@ body{
 {
     width:25%;
 }
-
