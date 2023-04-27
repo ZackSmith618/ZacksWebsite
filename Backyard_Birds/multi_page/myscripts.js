@@ -8,7 +8,7 @@ if (document.images) {
 PrintButton1.src = "Images/Print1.gif"
 PrintButton2.src = "Images/Print2.gif"
 logo1.src = "Images/Logo1.jpg"
-logo2.src = "images/Logo2.jpg"
+logo2.src = "Images/Logo2.jpg"
 }
 
 
