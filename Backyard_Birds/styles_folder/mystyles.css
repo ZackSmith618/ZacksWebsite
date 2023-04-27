@@ -23,7 +23,7 @@ banner{
 
 section{
 	width: 900px;
-	background-image: url('Images/2colback.jpg');
+	background-image: url('/Backyard_Birds/Images/2colback.jpg');
 	background-repeat: repeat-y;
 	overflow: hidden;
 	margin: auto;
