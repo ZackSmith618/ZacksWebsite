@@ -23,10 +23,17 @@ banner{
 
 section{
 	width: 900px;
-	background-image: url('/Backyard_Birds/Images/2colback.jpg');
-	background-repeat: repeat-y;
 	overflow: hidden;
 	margin: auto;
+	position: relative;
+}
+
+section ::before{
+	width: 900px;
+	background-image: url('/Backyard_Birds/Images/2colback.jpg');
+	background-repeat: repeat-y;
+	content:'';
+	opacity: 0.6;
 }
 
 nav{
